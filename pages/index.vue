@@ -8,14 +8,7 @@
 export default {
   methods: {
     signIn () {
-      // this.blockstack.redirectToSignIn()
-      this.blockstack.redirectToSignInWithAuthRequest(
-        this.blockstack.makeAuthRequest(
-          this.blockstack.generateAndStoreAppKey(),
-          window.location.origin,
-          window.location.origin + '/manifest.json'
-        )
-      )
+      this.$signInAndRedirect('/dashboard')
     }
   }
 }
