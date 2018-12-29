@@ -25,7 +25,6 @@ module.exports = {
   plugins: [
     '@/plugins/blockstack.js'
   ],
-  ,
   serverMiddleware: [ // TODO
     { path: '/api/manifest.json', handler: (req, res) => {
         res.setHeader('Access-Control-Allow-Origin', '*')
