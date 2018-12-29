@@ -13,8 +13,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "blockstack": "^0.9.1",
-    "nuxt": "^1.0.0-rc3"
+    "blockstack": "^18.2.0",
+    "nuxt": "^2.3.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
